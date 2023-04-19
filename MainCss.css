@@ -190,12 +190,13 @@ main {
     padding-top: 40px;
     display: flex;
     justify-content: space-around;
-    gap: 60px;
+    gap: 20px;
     background: #f5f6fbe0;
 
 }
 
 main .descText p {
+    flex-basis: 60%;
     font-family: var(---mainFont);
     font-size: 15px;
     font-weight: 700;
@@ -204,8 +205,9 @@ main .descText p {
 
 }
 
-.Description img {
-    width: 40%;
+.descripImage {
+    /* width: 50px; */
+    flex-basis: 40%;
 }
 
 .descText {
@@ -1274,91 +1276,91 @@ footer .logo {
 
 
 
-form input {
-    width: 60%;
-    height: 40px;
-    background: #FFFFFF;
-    border: 1px solid #CECECE;
-    border-radius: 6px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    margin: 0px;
-    padding-left: 10px;
-    border-right: none;
-    outline: none;
-}
+    form input {
+        width: 60%;
+        height: 40px;
+        background: #FFFFFF;
+        border: 1px solid #CECECE;
+        border-radius: 6px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        margin: 0px;
+        padding-left: 10px;
+        border-right: none;
+        outline: none;
+    }
 
-form button {
-    width: 35%;
-    height: 40px;
-    border: 1px solid #CECECE;
-    border-left: none;
-    color: #ffffff;
-    border-radius: 6px;
-    background: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
-    margin-left: -4px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
-    font-family: var(---mainFont);
-    cursor: pointer;
-}
+    form button {
+        width: 35%;
+        height: 40px;
+        border: 1px solid #CECECE;
+        border-left: none;
+        color: #ffffff;
+        border-radius: 6px;
+        background: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+        margin-left: -4px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        font-family: var(---mainFont);
+        cursor: pointer;
+    }
 
-footer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 20px;
-    padding-top: 10px;
-    padding-left: 20px;
+    footer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding-top: 10px;
+        padding-left: 20px;
 
-}
+    }
 
-.footer_list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 20px;
-    color: white;
-    font-size: 17px;
-}
+    .footer_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+        color: white;
+        font-size: 17px;
+    }
 
-.footer_list h2 {
-    margin-bottom: 5px;
-    position: relative;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 20px;
-    color: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+    .footer_list h2 {
+        margin-bottom: 5px;
+        position: relative;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        color: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
 
 
-}
+    }
 
-.copyright {
-    background: url(/images/Banner\ \(1\).png);
-    border-top: 0.5px grey solid;
-    padding-block: 9px;
-    margin-block: 0px;
-    height: 100%;
-    width: 100%;
-}
+    .copyright {
+        background: url(/images/Banner\ \(1\).png);
+        border-top: 0.5px grey solid;
+        padding-block: 9px;
+        margin-block: 0px;
+        height: 100%;
+        width: 100%;
+    }
 
-.About_us {
-    width: 274px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+    .About_us {
+        width: 274px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
-.About_us p {
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 19px;
-    color: #DADADA;
-}
+    .About_us p {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19px;
+        color: #DADADA;
+    }
 
 
 
@@ -1392,5 +1394,21 @@ footer {
         margin-inline: auto;
         margin-top: 5px;
     }
+.DescList{
+        margin-top: 10px;
+        display: flex;
+        padding: 10px;
+        justify-content: flex-start;
+        }
 
+        .ad_img {
+            margin-top: 10px;
+            width: 100%;
+        }
 }
+}
+
+
+/* @media (min-width: 1024px) {
+   
+ } */
