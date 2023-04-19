@@ -1179,7 +1179,7 @@ footer .logo {
 
     .ad_img {
         margin-top: 10px;
-        width: 400px;
+        width: 100%;
     }
 
     .content {
@@ -1373,7 +1373,7 @@ footer .logo {
 /* tablet */
 @media (min-width: 640px) {
     .container {
-        /* background-color: red; */
+       
 
     }
 
@@ -1403,10 +1403,10 @@ footer .logo {
 
         .ad_img {
             margin-top: 10px;
-            width: 100%;
+            width: 60%;
         }
 }
-}
+
 
 
 /* @media (min-width: 1024px) {
